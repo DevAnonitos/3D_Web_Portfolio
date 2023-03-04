@@ -4,9 +4,11 @@ import { BrowserRouter } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <h1>
-        DevPortfolio
-      </h1>
+      <BrowserRouter>
+        <div className="">
+
+        </div>
+      </BrowserRouter>
     </>
   )
 };
