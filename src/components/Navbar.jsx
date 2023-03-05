@@ -43,6 +43,12 @@ const Navbar = () => {
               </span>
             </p>
           </Link>
+
+          {/*======================== Searchbar========================= */}
+
+          
+
+
           {/* ===========================LinkMap========================= */}
           <ul className='list-none hidden sm:flex flex-row gap-10'>
             {navLinks.map((nav) => (

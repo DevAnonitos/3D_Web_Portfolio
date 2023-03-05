@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
     "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@react-three/drei": "^9.57.0",
     "@react-three/fiber": "^8.11.5",
     "framer-motion": "^10.0.1",
