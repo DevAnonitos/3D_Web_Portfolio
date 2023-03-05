@@ -35,11 +35,11 @@ const Navbar = () => {
             />
             <p
               className='text-white text-[18px]
-              font-bold cursor-pointer'
+              font-bold cursor-pointer flex'
             >
-              BaoNguyen
+              BaoNg &nbsp;
               <span className="sm:block hidden">
-                | FullstackDev.IO
+                | Dev.IO
               </span>
             </p>
           </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               <input
                 type="search"
                 className="peer block min-h-[auto]
-                  w-full rounded-2xl border-2 bg-red-500
+                  w-full rounded-2xl border-0 bg-red-500
                   py-[0.32rem] px-3 leading-[1.6]
                   outline-none transition-all
                   duration-200 ease-linear
@@ -60,7 +60,7 @@ const Navbar = () => {
                   motion-reduce:transition-none
                   dark:text-neutral-200
                   dark:placeholder:text-white
-                  [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                  [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                 id="exampleSearch2"
                 placeholder="Search..."
               />
