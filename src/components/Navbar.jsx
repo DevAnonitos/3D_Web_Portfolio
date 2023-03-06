@@ -51,7 +51,8 @@ const Navbar = () => {
               <input
                 type="search"
                 className="peer block min-h-[auto]
-                  w-full rounded-2xl border-0 bg-red-500
+                  w-full rounded-2xl border-2 border-slate-800
+                  bg-tertiary brightness-150
                   py-[0.32rem] px-3 leading-[1.6]
                   outline-none transition-all
                   duration-200 ease-linear
@@ -62,7 +63,7 @@ const Navbar = () => {
                   dark:placeholder:text-white
                   [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                 id="exampleSearch2"
-                placeholder="Search..."
+                placeholder="Search for blog ..."
               />
 
             </div>
