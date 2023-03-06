@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import monitor from "./monitor.gif";
+
 export {
     logo,
     backend,
@@ -59,4 +61,5 @@ export {
     carrent,
     jobit,
     tripguide,
+    monitor
 };
