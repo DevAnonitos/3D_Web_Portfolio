@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import {
   Decal,
   Float,
@@ -65,6 +65,7 @@ const BallCanvas = ({ icon }) => {
             <Ball
                 imgUrl={icon}
             />
+            <OrbitControls />
         </Suspense>
 
         <Preload all />

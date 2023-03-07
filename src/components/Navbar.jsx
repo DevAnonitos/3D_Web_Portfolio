@@ -47,10 +47,11 @@ const Navbar = () => {
           {/*======================== Searchbar========================= */}
 
           <div className="sm:block hidden justify-center items-center">
-            <div className="relative mb-3 xl:w-96" data-te-input-wrapper-init>
+            <div className="flex justify-center items-center relative mb-3 xl:w-96" data-te-input-wrapper-init>
               <input
                 type="search"
-                className="peer block min-h-[auto]
+                className="justify-center items-center
+                  peer block min-h-[auto] h-[50px]
                   w-full rounded-2xl border-2 border-slate-800
                   bg-tertiary brightness-150
                   py-[0.32rem] px-3 leading-[1.6]
