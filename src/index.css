@@ -18,7 +18,7 @@
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  background:  linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
+  background:  linear-gradient(0deg, #00cea8 0%, #bf61ff 100%);
 }
 
 ::-webkit-scrollbar-thumb {
